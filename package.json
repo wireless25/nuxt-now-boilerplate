@@ -1,8 +1,8 @@
 {
   "name": "now-lambda-nuxt",
   "version": "1.0.0",
-  "description": "My fantastic Nuxt.js project",
-  "author": "Stephan",
+  "description": "A boilerplate for a nuxt.js project hosted on now.sh",
+  "author": "Stephan Simonett",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -12,8 +12,6 @@
     "now-build": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/axios": "^5.3.6"
-  },
-  "devDependencies": {}
+    "nuxt": "^2.0.0"
+  }
 }

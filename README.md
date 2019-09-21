@@ -1,15 +1,18 @@
-# now-lambda-nuxt
+# Nuxt and Now boilerplate
 
-> My fantastic Nuxt.js project
+This is a boilerplate for a nuxt.js project hosted on now.sh, preconfigured with a API setup using Now's serverless functions
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ npm run install
+$ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3000 – Nuxt app only
 $ npm run dev
+
+# start now.sh development server - Nuxt app and serverless functions
+$ now dev
 
 # build for production and launch server
 $ npm run build
@@ -17,6 +20,7 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+# Deploy to now.sh
+$ now
+```
